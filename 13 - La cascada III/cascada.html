@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Curso CSS. La cascada</title>
+		<link href="mihoja_practica.css" rel="stylesheet" type="text/css" />
+		<style>
+		
+			html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,pre,code,address,form,fieldset
+			{
+			
+				padding: 0;
+				margin: 0;
+				font-size: 100%;
+				font-weight: normal;
+			
+			}
+			
+			ol
+			{
+			
+				margin-left: 1.4em;
+				list-style: decimal
+			
+			}
+			
+			ul
+			{
+			
+				margin-left: 1.4em;
+				list-style: decimal
+			
+			}
+			
+			img
+			{
+			
+				border: 0;
+			
+			}
+			
+			#principal
+			{
+			
+				float: left;
+				width: 580px;
+			
+			}
+			
+			#lateral
+			{
+			
+				margin-left: 600px;
+				padding: 15px;
+				background-color: #e1cdff;
+			
+			}
+			
+			body
+			{
+			
+				color: #d1967c;
+				font-family: "Palatino LinoType", "Book Antiqua", Palatino, serif;
+				padding-top: 100px;
+				background: #e1cdff url(images/fondo_cuerpo.png) repeat-x;
+				width: 800px;
+				margin: 0 auto;
+			
+			}
+			
+			h1
+			{
+			
+				font-size: 3em;
+				font-family: "Arial Black", Gadget, sans-serif;
+			
+			}
+			
+			h2
+			{
+			
+				font-size: 2.2em;
+				color: #600;
+				margin-bottom: 5px;
+			
+			}
+			
+			#principal h2
+			{
+			
+				color: #e8a064;
+				border-bottom: 2px solid white;
+				background: url(images/flor.png) no-repeat;
+				padding: 0 0 2px 80px;
+			
+			}
+			
+			#principal p
+			{
+			
+				color: #616161;
+				font-family: "Palatino LinoType", "Book Antiqua", Palatino, serif;
+				font-size: 1.1em;
+				line-height: 150%;
+				margin-bottom: 10px;
+				margin-left: 80px;
+			
+			}
+			
+			#principal .introduccion
+			{
+			
+				color: #000;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 1.2em;
+				margin-left: 0px;
+				margin-bottom: 25px;
+			
+			}
+		
+		</style>
+	</head>
+		<body>
+		<h1>Curso CSS desde 0</h1>
+		<div id="principal">
+			<p class="introduccion">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+			<h2>Título 1</h2>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<h2>Título 2</h2>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		</div>
+		<div id="lateral">
+			<h2>Lateral</h2>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</p>
+			<p>adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		</div>
+	</body>
+</html>
