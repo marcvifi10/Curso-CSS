@@ -1,0 +1,16 @@
+#navegacionPrincipal, #barraLateral, #pieNavega
+{
+	display: none;
+}
+
+#banner, #contenidoPrincipal, #piePrincipal, #principal
+{
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#piePrincipal
+{
+	margin: 0;
+}
